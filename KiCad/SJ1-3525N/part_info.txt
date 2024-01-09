@@ -1,0 +1,9 @@
+Manufacturer=CUI Inc.
+PartNumber=SJ1-3525N
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=1.6
+Released=2023-09-30 04:40:12
+Downloaded=2024-01-09 17:02:34
+3D=Y

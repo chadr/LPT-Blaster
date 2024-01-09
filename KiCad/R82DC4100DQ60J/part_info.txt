@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=R82DC4100DQ60J
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=3.3
+Released=2019-10-14 16:26:30
+Downloaded=2024-01-09 17:03:15
+3D=Y

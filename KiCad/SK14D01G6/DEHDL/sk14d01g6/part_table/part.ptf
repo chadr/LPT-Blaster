@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SK14D01G6'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "C & K COMPONENTS", "SK14D01G6" (!) = "", "SK14D01G6", "Other", "611-SK-14D01-G6", "https://www.mouser.co.uk/ProductDetail/CK/SK14D01G6?qs=Gufeu08L%2Fl0F1TW9qwgs0A%3D%3D", "SK14D01G6", "https://www.arrow.com/en/products/sk14d01g6/ck", "Slide Switches SP4T 0.3 Amp at 30 V", "https://www.arrow.com/en/products/sk14d01g6/ck", "4.7 mm"
+END_PART
+
+END.

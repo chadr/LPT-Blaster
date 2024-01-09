@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "R82DC4100DQ60J"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-14-16:26:30)
+    (mountForm default
+        (footprintRef "R82DC4100DQ60J")
+        (spec "System")
+    )
+)

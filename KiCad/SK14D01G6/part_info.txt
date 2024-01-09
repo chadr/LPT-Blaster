@@ -1,0 +1,9 @@
+Manufacturer=C & K COMPONENTS
+PartNumber=SK14D01G6
+PartCategory=Switch
+PackageCategory=Other
+PinCount=8
+Version=1.3
+Released=2020-05-18 09:58:14
+Downloaded=2024-01-09 17:03:41
+3D=N

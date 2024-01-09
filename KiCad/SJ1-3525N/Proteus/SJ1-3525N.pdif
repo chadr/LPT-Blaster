@@ -1,0 +1,229 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SJ1-3525N"
+   (description "3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector")
+   (family "CON")
+   (package "SJ13525N")
+   (attribute "Datasheet Link" "https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
+   (attribute "Geometry.Height" "6.25mm")
+   (attribute "Manufacturer_Name" "CUI Inc.")
+   (attribute "Manufacturer_Part_Number" "SJ1-3525N")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "SJ1-3525N")
+    (pin "SLEEVE" 1 PS)
+    (pin "TIP" 2 PS)
+    (pin "RING" 3 PS)
+    (pin "TIP_SWITCH" 10 PS)
+    (pin "RING_SWITCH" 11 PS)
+   )
+  )
+  (symbol "SJ1-3525N"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SJ13525N"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6 3.5)
+      (pt 6 3.5)
+      (pt 6 -7.5)
+      (pt -6 -7.5)
+      (pt -6 3.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.15 7.8)
+      (pt 7.15 7.8)
+      (pt 7.15 -8.5)
+      (pt -7.15 -8.5)
+      (pt -7.15 7.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3 4.5)
+      (pt -3 6.8)
+      (pt 3 6.8)
+      (pt 3 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6 -6)
+      (pt -6 -7.5)
+      (pt 6 -7.5)
+      (pt 6 -6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -6 -3.5)
+      (pt -6 3.5)
+      (pt 6 3.5)
+      (pt 6 -3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3 4.5)
+      (pt -3 6.8)
+      (pt 3 6.8)
+      (pt 3 4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.6 0)
+      (arc (pt -6.600 0.000) (pt -6.700 -0.050) (pt -6.600 0.050) (start 180.0) (sweep .0))
+      (pt -6.7 0)
+      (arc (pt -6.700 0.000) (pt -6.700 -0.050) (pt -6.600 0.050) (start 180.0) (sweep -180.0))
+      (pt -6.6 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 4.5 3.5)
+      (pt 4.5 4.5)
+      (pt 2 4.5)
+      (pt 2 3.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2 3.5)
+      (pt -2 4.5)
+      (pt -4.5 4.5)
+      (pt -4.5 3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.5 3.5)
+      (pt -4.5 4.5)
+      (pt -2 4.5)
+      (pt -2 3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2 3.5)
+      (pt 2 4.5)
+      (pt 4.5 4.5)
+      (pt 4.5 3.5))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -5.000 -5.000) (padstack 2))
+   (leg 3 (pt 5.000 -5.000) (padstack 3))
+   (leg 10 (pt -2.500 -5.000) (padstack 4))
+   (leg 11 (pt 2.500 -5.000) (padstack 5))
+   (leg MH1 (pt -5.000 2.500) (padstack 0))
+   (leg MH2 (pt -5.000 0.000) (padstack 0))
+   (leg MH3 (pt 0.000 -5.000) (padstack 0))
+   (leg MH4 (pt 5.000 0.000) (padstack 0))
+   (leg MH5 (pt 5.000 2.500) (padstack 0))
+   (padstack 0
+    (hole 1.2)
+    (plated false)
+    (pad (layer TCOP) (round 0.600))
+    (pad (layer INNER) (round 0.600))
+    (pad (layer BCOP) (round 0.600))
+   )
+   (padstack 1
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (square 2.550))
+    (pad (layer INNER) (round 2.550))
+    (pad (layer BCOP) (square 2.550))
+   )
+   (padstack 2
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.300))
+    (pad (layer INNER) (round 2.300))
+    (pad (layer BCOP) (round 2.300))
+   )
+   (padstack 3
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.300))
+    (pad (layer INNER) (round 2.300))
+    (pad (layer BCOP) (round 2.300))
+   )
+   (padstack 4
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.300))
+    (pad (layer INNER) (round 2.300))
+    (pad (layer BCOP) (round 2.300))
+   )
+   (padstack 5
+    (hole 1.7)
+    (plated true)
+    (pad (layer TCOP) (round 2.300))
+    (pad (layer INNER) (round 2.300))
+    (pad (layer BCOP) (round 2.300))
+   )
+   (model "SJ1-3525N.stp"
+    (euler 90 0 180)
+    (offset 0 6.800000190734863 2.9000000953674316)
+   )
+  )
+ )
+)

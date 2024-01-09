@@ -1,0 +1,18 @@
+.R82DC4100DQ60J :1 ;R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 40 VAC, 63 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 160 V/us, 7000 pH, 0.53 g, 7.2mm, 10mm, 5mm, Lead Spacing = 5mm, 1700
+R82DC4100DQ60J
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN R82DC4100DQ60J
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (R82DC4100DQ60J)
+~!Mouser Part Number (80-R82DC4100DQ60J)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/R82DC4100DQ60J?qs=06HLYMEcjuVd2Wr1NUYuhw%3D%3D)
+~!Arrow Part Number (R82DC4100DQ60J)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/r82dc4100dq60j/kemet-corporation?region=nac)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_F3101_R82.pdf)
+~!Height (10.1mm)
+~!3D_Model (R82DC4100DQ60J)
+R82DC4100DQ60J
+1.1!U 2.1!U 

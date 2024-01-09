@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_250643"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-14-16:26:30)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "R82DC4100DQ60J")
+)
+
+
+(pinAssign "ECS_250643"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-14-16:26:30)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_250643")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "R82DC4100DQ60J")
+)
+
+
+(part "R82DC4100DQ60J"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-14-16:26:30)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "R82DC4100DQ60J")
+    (pinAssignRef "ECS_250643")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "R82, Film, Metallized Polyester Stacked, Automotive Grade, 1 uF, 5%, 40 VAC, 63 VDC, 105C, -55C, 85C, 0.8 % , 5 GOhms, 160 V/us, 7000 pH, 0.53 g, 7.2mm, 10mm, 5mm, Lead Spacing = 5mm, 1700")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "R82DC4100DQ60J")
+    (property "Mouser_Part_Number" "80-R82DC4100DQ60J")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/R82DC4100DQ60J?qs=06HLYMEcjuVd2Wr1NUYuhw%3D%3D")
+    (property "Arrow_Part_Number" "R82DC4100DQ60J")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/r82dc4100dq60j/kemet-corporation?region=nac")
+    (property "Datasheet_Link" "https://content.kemet.com/datasheets/KEM_F3101_R82.pdf")
+    (property "compAreaTopHeight" 10.1)
+)
+
+

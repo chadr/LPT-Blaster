@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SJ1_3525N'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CUI Inc.", "SJ1-3525N" (!) = "", "SJ13525N", "Other", "", "", "", "", "3.5 mm, Stereo, Right Angle, Through Hole, 3 Conductors, 2 Internal Switches, Audio Jack Connector", "https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf", "6.25 mm"
+END_PART
+
+END.

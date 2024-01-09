@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "R82DC4100DQ60J"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "R82DC4100DQ60J")
+        (spec "default")
+    )
+)

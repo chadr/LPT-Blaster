@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "L717SDB25P1ACH3R"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "L717SDB25P1ACH3R")
+        (spec "default")
+    )
+)
